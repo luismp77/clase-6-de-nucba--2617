@@ -1,0 +1,118 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+   /* border: 2px dashed red;*/
+}
+
+body{
+    background-color: antiquewhite;}
+.primerDiv{
+    height: 200px;
+    width: 200px;
+    background-color: aqua;
+    padding: 5px;
+    margin: 30px;
+    border: 10px dotted black;
+    overflow: auto;
+
+    /*overflow: hidden; esconde el texto nada mas se ve lo q </br
+    eesta en la caja */
+
+    
+   /* margin: 50px auto; para centrar la caja en la pagina*/
+}
+
+
+img {
+    .width: 50px;
+    height: 50px;
+}
+.divs{
+    display: inline;
+}
+.no-inline{
+    display: block;
+}
+
+.contenedor{
+    margin-left: 0px;
+
+
+}
+
+
+
+#div-position1{ 
+    height: 80px;
+    width: 80px;
+    background-color: red;
+    border: 2px dotted black;
+    position: relative;
+    left: 20px;
+    top: 50px;
+
+}
+
+#div-position2{
+
+ 
+    height: 80px;
+    width: 400px;
+    background-color: rgb(228, 232, 28);
+    border: 2px dotted black;
+    position: relative;
+    bottom: 50px;
+    right: 20px ;
+
+
+}
+
+
+
+#div-position3{
+
+ 
+    height: 80px;
+    width: 100%;
+    background-color: rgb(26, 8, 82);
+    border: 2px dotted black;
+    position:absolute;
+    top: 0;
+
+}
+#div-position4{
+
+ 
+    height: 80px;
+    width: 80px;
+    background-color: rgb(230, 0, 255);
+    border: 2px dotted black;
+    position: fixed;
+
+}
+
+#div-position5{
+
+ 
+    height: 80px;
+    width: 80px;
+    background-color: rgb(51, 199, 74);
+    border: 2px dotted black;
+    position: sticky;
+    left:  50px;
+
+}
+/*#p3{
+    color: aliceblue;
+}*/
+li{
+    display: inline;
+}
+li:hover{
+    color: greenyellow;
+}
+
+li{
+    color: antiquewhite;
+}
